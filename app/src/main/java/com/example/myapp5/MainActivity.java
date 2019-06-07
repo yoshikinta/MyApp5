@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     Integer digitsNumber=3;
     String[] spinnerItems={"3","4","5"};
     ArrayList<String> historyList;
+    NumerOn no = new NumerOn();
 
     View.OnClickListener buttonOperatorListener = new View.OnClickListener() {
         @Override
